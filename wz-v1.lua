@@ -1100,7 +1100,7 @@ local function bz()
                 local aW = bn()
                 local bA = R:IsOnCooldown("Ultimate")
                 if
-                    aW and (J.Position - aW.Collider.Position).Magnitude < 80 and
+                    aW and (J.Position - aW.Collider.Position).Magnitude < 999 and
                         e.Characters[H.Name].Properties.BackSwordCount.Value == 6
                  then
                     if aW and aW.HealthProperties.Health.Value < 1 / 6 or bA then
